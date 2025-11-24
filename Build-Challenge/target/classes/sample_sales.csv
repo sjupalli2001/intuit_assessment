@@ -1,0 +1,17 @@
+date,region,salesperson,product,quantity,unitPrice
+2024-01-05,North,Alice,Widget,10,9.99
+2024-01-06,South,Bob,Gadget,5,19.99
+2024-02-10,North,Alice,Widget,3,9.99
+2024-02-11,East,Carol,Thing,7,14.50
+2024-03-01,South,Bob,Gadget,2,19.99
+2024-03-05,East,Carol,Widget,1,9.99
+2024-03-10,West,David,Widget,8,9.99
+2024-03-15,North,Alice,Gadget,4,19.99
+2024-03-20,South,Bob,Thing,6,14.50
+2024-03-25,East,Carol,Widget,3,9.99
+2024-04-01,West,David,Gadget,7,19.99
+2024-04-05,North,Alice,Thing,2,14.50
+2024-04-10,South,Bob,Widget,5,9.99
+2024-04-15,East,Carol,Gadget,1,19.99
+2024-04-20,West,David,Thing,9,14.50
+2024-04-25,North,Alice,Widget,4,9.99

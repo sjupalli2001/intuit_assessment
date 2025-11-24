@@ -1,4 +1,7 @@
 com/example/buildchallenge/producerconsumer/SharedBuffer.class
 com/example/buildchallenge/producerconsumer/ProducerConsumerMain.class
 com/example/buildchallenge/producerconsumer/Producer.class
+com/example/buildchallenge/csvanalysis/CsvAnalysisMain.class
+com/example/buildchallenge/csvanalysis/SalesRecord.class
 com/example/buildchallenge/producerconsumer/Consumer.class
+com/example/buildchallenge/csvanalysis/SalesAnalyzer.class

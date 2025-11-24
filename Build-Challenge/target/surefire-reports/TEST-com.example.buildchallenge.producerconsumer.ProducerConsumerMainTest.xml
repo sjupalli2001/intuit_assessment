@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="10.951" tests="18" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="10.95" tests="18" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -11,7 +11,7 @@
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/21.0.9-ms/lib"/>
-    <property name="sun.java.command" value="/workspaces/intuit_assessment/Build-Challenge/target/surefire/surefirebooter-20251124210329456_3.jar /workspaces/intuit_assessment/Build-Challenge/target/surefire 2025-11-24T21-03-28_112-jvmRun1 surefire-20251124210329456_1tmp surefire_0-20251124210329456_2tmp"/>
+    <property name="sun.java.command" value="/workspaces/intuit_assessment/Build-Challenge/target/surefire/surefirebooter-20251124212618271_3.jar /workspaces/intuit_assessment/Build-Challenge/target/surefire 2025-11-24T21-26-18_197-jvmRun1 surefire-20251124212618271_1tmp surefire_0-20251124212618271_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/workspaces/intuit_assessment/Build-Challenge/target/test-classes:/workspaces/intuit_assessment/Build-Challenge/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -26,7 +26,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/workspaces/intuit_assessment/Build-Challenge/target/surefire/surefirebooter-20251124210329456_3.jar"/>
+    <property name="surefire.real.class.path" value="/workspaces/intuit_assessment/Build-Challenge/target/surefire/surefirebooter-20251124212618271_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.9+10-LTS"/>
     <property name="user.name" value="codespace"/>
@@ -64,7 +64,7 @@ Produced: Dates
 Consumed: Dates
 ]]></system-out>
   </testcase>
-  <testcase name="testMainMethodJoinsThreads" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.602">
+  <testcase name="testMainMethodJoinsThreads" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.601">
     <system-out><![CDATA[Produced: Apple
 Consumed: Apple
 Produced: Banana
@@ -86,7 +86,7 @@ Produced: Dates
 Consumed: Dates
 ]]></system-out>
   </testcase>
-  <testcase name="testMainMethodUsesCorrectSourceList" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.602">
+  <testcase name="testMainMethodUsesCorrectSourceList" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.601">
     <system-out><![CDATA[Produced: Apple
 Consumed: Apple
 Produced: Banana
@@ -119,7 +119,7 @@ Produced: Dates
 Consumed: Dates
 ]]></system-out>
   </testcase>
-  <testcase name="testMainMethodExceptionHandling" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.603">
+  <testcase name="testMainMethodExceptionHandling" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.602">
     <system-out><![CDATA[Produced: Apple
 Consumed: Apple
 Produced: Banana
@@ -141,7 +141,7 @@ Produced: Dates
 Consumed: Dates
 ]]></system-out>
   </testcase>
-  <testcase name="testMainMethodUsesCorrectDelays" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.601">
+  <testcase name="testMainMethodUsesCorrectDelays" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.602">
     <system-out><![CDATA[Produced: Apple
 Consumed: Apple
 Produced: Banana
@@ -163,7 +163,7 @@ Produced: Dates
 Consumed: Dates
 ]]></system-out>
   </testcase>
-  <testcase name="testMainMethodMultipleCalls" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="1.303">
+  <testcase name="testMainMethodMultipleCalls" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="1.304">
     <system-out><![CDATA[Produced: Apple
 Consumed: Apple
 Produced: Banana
@@ -182,14 +182,14 @@ Produced: Dates
 Consumed: Dates
 ]]></system-out>
   </testcase>
-  <testcase name="testMainMethodWithEmptyArgs" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.604">
+  <testcase name="testMainMethodWithEmptyArgs" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.602">
     <system-out><![CDATA[Produced: Apple
 Consumed: Apple
 Produced: Banana
 Consumed: Banana
 Produced: Capsicum
-Produced: Dates
 Consumed: Capsicum
+Produced: Dates
 Consumed: Dates
 ]]></system-out>
   </testcase>
@@ -199,12 +199,12 @@ Consumed: Apple
 Produced: Banana
 Consumed: Banana
 Produced: Capsicum
-Produced: Dates
 Consumed: Capsicum
+Produced: Dates
 Consumed: Dates
 ]]></system-out>
   </testcase>
-  <testcase name="testMainMethodExecution" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.601">
+  <testcase name="testMainMethodExecution" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.602">
     <system-out><![CDATA[Produced: Apple
 Consumed: Apple
 Produced: Banana
@@ -227,7 +227,7 @@ Consumed: Dates
 ]]></system-out>
   </testcase>
   <testcase name="testClassInstantiation" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.0"/>
-  <testcase name="testMainMethodNoDeadlock" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.601">
+  <testcase name="testMainMethodNoDeadlock" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.602">
     <system-out><![CDATA[Produced: Apple
 Consumed: Apple
 Produced: Banana
@@ -238,7 +238,7 @@ Produced: Dates
 Consumed: Dates
 ]]></system-out>
   </testcase>
-  <testcase name="testMainMethodWithNullArgs" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.602">
+  <testcase name="testMainMethodWithNullArgs" classname="com.example.buildchallenge.producerconsumer.ProducerConsumerMainTest" time="0.601">
     <system-out><![CDATA[Produced: Apple
 Consumed: Apple
 Produced: Banana
