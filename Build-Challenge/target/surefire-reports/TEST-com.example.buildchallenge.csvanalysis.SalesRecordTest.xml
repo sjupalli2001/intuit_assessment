@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.735" tests="16" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.03" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -53,20 +53,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testPutBlocksWhenFull" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.108"/>
-  <testcase name="testSizeAndIsEmpty" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.0"/>
-  <testcase name="testPutAndTakeSingleItem" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.0"/>
-  <testcase name="testWhileLoopInPut" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.101"/>
-  <testcase name="testWhileLoopInTake" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.102"/>
-  <testcase name="testMultipleProducersAndConsumers" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.007"/>
-  <testcase name="testPutMultipleItems" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.0"/>
-  <testcase name="testTakeBlocksWhenEmpty" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.101"/>
-  <testcase name="testInterruptedExceptionOnPut" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.102"/>
-  <testcase name="testTakeReturnsNullWhenDoneAndEmpty" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.001"/>
-  <testcase name="testTakeMultipleItems" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.0"/>
-  <testcase name="testInterruptedExceptionOnTake" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.101"/>
-  <testcase name="testTakeDoesNotBlockWhenDoneAndEmpty" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.001"/>
-  <testcase name="testSetDone" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.0"/>
-  <testcase name="testWhileLoopInTakeWithDoneFlag" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.101"/>
-  <testcase name="testConstructor" classname="com.example.buildchallenge.producerconsumer.SharedBufferTest" time="0.0"/>
+  <testcase name="testTotalWithZeroPrice" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.001"/>
+  <testcase name="testConstructorWithAllFields" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.001"/>
+  <testcase name="testFromCsvWithSpaces" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.0"/>
+  <testcase name="testFromCsvWithDifferentDate" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.0"/>
+  <testcase name="testFromCsvWithDecimalPrice" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.003"/>
+  <testcase name="testTotal" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.0"/>
+  <testcase name="testFromCsv" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.0"/>
+  <testcase name="testTotalCalculationAccuracy" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.001"/>
+  <testcase name="testFromCsvWithMultipleRecords" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.001"/>
+  <testcase name="testTotalWithZeroQuantity" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.001"/>
+  <testcase name="testGetDate" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.001"/>
+  <testcase name="testGetProduct" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.001"/>
+  <testcase name="testTotalWithLargeValues" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.001"/>
+  <testcase name="testGetSalesperson" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.0"/>
+  <testcase name="testFromCsvDateFormat" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.001"/>
+  <testcase name="testFromCsvParsesIntegerQuantity" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.0"/>
+  <testcase name="testGetRegion" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.001"/>
+  <testcase name="testFromCsvParsesDoublePrice" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.001"/>
+  <testcase name="testFromCsvHandlesTrim" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.001"/>
+  <testcase name="testConstructor" classname="com.example.buildchallenge.csvanalysis.SalesRecordTest" time="0.001"/>
 </testsuite>
