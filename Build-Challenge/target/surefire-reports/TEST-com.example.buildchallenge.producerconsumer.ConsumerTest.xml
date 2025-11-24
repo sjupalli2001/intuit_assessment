@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.buildchallenge.producerconsumer.ConsumerTest" time="1.853" tests="19" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/workspaces/intuit_assessment/Build-Challenge/target/test-classes:/workspaces/intuit_assessment/Build-Challenge/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/21.0.9-ms/lib"/>
+    <property name="sun.java.command" value="/workspaces/intuit_assessment/Build-Challenge/target/surefire/surefirebooter-20251124210329456_3.jar /workspaces/intuit_assessment/Build-Challenge/target/surefire 2025-11-24T21-03-28_112-jvmRun1 surefire-20251124210329456_1tmp surefire_0-20251124210329456_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/workspaces/intuit_assessment/Build-Challenge/target/test-classes:/workspaces/intuit_assessment/Build-Challenge/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/codespace"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/usr/local/sdkman/candidates/java/21.0.9-ms"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/workspaces/intuit_assessment/Build-Challenge"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/workspaces/intuit_assessment/Build-Challenge/target/surefire/surefirebooter-20251124210329456_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.9+10-LTS"/>
+    <property name="user.name" value="codespace"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.8.0-1030-azure"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-12574458"/>
+    <property name="localRepository" value="/home/codespace/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="/workspaces/intuit_assessment/Build-Challenge"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="21.0.9+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testWhileTrueLoop" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.152">
+    <system-out><![CDATA[Consumed: A
+Consumed: B
+Consumed: C
+]]></system-out>
+  </testcase>
+  <testcase name="testWhileLoopConsumesItems" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.152">
+    <system-out><![CDATA[Consumed: Item1
+Consumed: Item2
+Consumed: Item3
+]]></system-out>
+  </testcase>
+  <testcase name="testInterruptDuringSleep" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.151">
+    <system-out><![CDATA[Consumed: Sleep1
+]]></system-out>
+  </testcase>
+  <testcase name="testSubstringCapitalization" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.051">
+    <system-out><![CDATA[Consumed: Apple
+]]></system-out>
+  </testcase>
+  <testcase name="testInterruptedExceptionInTryCatch" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.101">
+    <system-out><![CDATA[Consumed: Item1
+]]></system-out>
+  </testcase>
+  <testcase name="testWhileLoopConditionWithNullItem" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.001"/>
+  <testcase name="testTryCatchHandlesInterruptedException" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.051">
+    <system-out><![CDATA[Consumed: Test
+]]></system-out>
+  </testcase>
+  <testcase name="testSleepInWhileLoop" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.301">
+    <system-out><![CDATA[Consumed: Slow1
+Consumed: Slow2
+Consumed: Slow3
+]]></system-out>
+  </testcase>
+  <testcase name="testWhileLoopBlocksWhenEmpty" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.202">
+    <system-out><![CDATA[Consumed: Unblock1
+Consumed: Unblock2
+]]></system-out>
+  </testcase>
+  <testcase name="testZeroDelay" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.001">
+    <system-out><![CDATA[Consumed: Fast1
+Consumed: Fast2
+Consumed: Fast3
+]]></system-out>
+  </testcase>
+  <testcase name="testConcurrentConsumers" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.052">
+    <system-out><![CDATA[Consumed: Item0
+Consumed: Item1
+Consumed: Item2
+Consumed: Item3
+Consumed: Item4
+Consumed: Item5
+Consumed: Item6
+Consumed: Item7
+Consumed: Item8
+Consumed: Item9
+]]></system-out>
+  </testcase>
+  <testcase name="testRunWithEmptyBufferAndDone" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.001"/>
+  <testcase name="testBreakCondition" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.001"/>
+  <testcase name="testAddToDestination" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.152">
+    <system-out><![CDATA[Consumed: A
+Consumed: B
+Consumed: C
+]]></system-out>
+  </testcase>
+  <testcase name="testThreadInterruptFlagSet" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.051">
+    <system-out><![CDATA[Consumed: Item1
+]]></system-out>
+  </testcase>
+  <testcase name="testLargeBuffer" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.111">
+    <system-out><![CDATA[Consumed: Item0
+Consumed: Item1
+Consumed: Item2
+Consumed: Item3
+Consumed: Item4
+Consumed: Item5
+Consumed: Item6
+Consumed: Item7
+Consumed: Item8
+Consumed: Item9
+Consumed: Item10
+Consumed: Item11
+Consumed: Item12
+Consumed: Item13
+Consumed: Item14
+Consumed: Item15
+Consumed: Item16
+Consumed: Item17
+Consumed: Item18
+Consumed: Item19
+Consumed: Item20
+Consumed: Item21
+Consumed: Item22
+Consumed: Item23
+Consumed: Item24
+Consumed: Item25
+Consumed: Item26
+Consumed: Item27
+Consumed: Item28
+Consumed: Item29
+Consumed: Item30
+Consumed: Item31
+Consumed: Item32
+Consumed: Item33
+Consumed: Item34
+Consumed: Item35
+Consumed: Item36
+Consumed: Item37
+Consumed: Item38
+Consumed: Item39
+Consumed: Item40
+Consumed: Item41
+Consumed: Item42
+Consumed: Item43
+Consumed: Item44
+Consumed: Item45
+Consumed: Item46
+Consumed: Item47
+Consumed: Item48
+Consumed: Item49
+Consumed: Item50
+Consumed: Item51
+Consumed: Item52
+Consumed: Item53
+Consumed: Item54
+Consumed: Item55
+Consumed: Item56
+Consumed: Item57
+Consumed: Item58
+Consumed: Item59
+Consumed: Item60
+Consumed: Item61
+Consumed: Item62
+Consumed: Item63
+Consumed: Item64
+Consumed: Item65
+Consumed: Item66
+Consumed: Item67
+Consumed: Item68
+Consumed: Item69
+Consumed: Item70
+Consumed: Item71
+Consumed: Item72
+Consumed: Item73
+Consumed: Item74
+Consumed: Item75
+Consumed: Item76
+Consumed: Item77
+Consumed: Item78
+Consumed: Item79
+Consumed: Item80
+Consumed: Item81
+Consumed: Item82
+Consumed: Item83
+Consumed: Item84
+Consumed: Item85
+Consumed: Item86
+Consumed: Item87
+Consumed: Item88
+Consumed: Item89
+Consumed: Item90
+Consumed: Item91
+Consumed: Item92
+Consumed: Item93
+Consumed: Item94
+Consumed: Item95
+Consumed: Item96
+Consumed: Item97
+Consumed: Item98
+Consumed: Item99
+]]></system-out>
+  </testcase>
+  <testcase name="testWhileLoopConditionWithNonNullItem" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.102">
+    <system-out><![CDATA[Consumed: Item1
+Consumed: Item2
+]]></system-out>
+  </testcase>
+  <testcase name="testTakeInWhileLoop" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.151">
+    <system-out><![CDATA[Consumed: Take1
+Consumed: Take2
+Consumed: Take3
+]]></system-out>
+  </testcase>
+  <testcase name="testWhileLoopExitsWhenDoneAndEmpty" classname="com.example.buildchallenge.producerconsumer.ConsumerTest" time="0.052">
+    <system-out><![CDATA[Consumed: Item1
+]]></system-out>
+  </testcase>
+</testsuite>

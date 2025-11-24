@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.buildchallenge.producerconsumer.ProducerTest" time="1.376" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/workspaces/intuit_assessment/Build-Challenge/target/test-classes:/workspaces/intuit_assessment/Build-Challenge/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/local/sdkman/candidates/java/21.0.9-ms/lib"/>
+    <property name="sun.java.command" value="/workspaces/intuit_assessment/Build-Challenge/target/surefire/surefirebooter-20251124210329456_3.jar /workspaces/intuit_assessment/Build-Challenge/target/surefire 2025-11-24T21-03-28_112-jvmRun1 surefire-20251124210329456_1tmp surefire_0-20251124210329456_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/workspaces/intuit_assessment/Build-Challenge/target/test-classes:/workspaces/intuit_assessment/Build-Challenge/target/classes:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2.jar:/home/codespace/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-commons/1.9.2/junit-platform-commons-1.9.2.jar:/home/codespace/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/codespace/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.2/junit-jupiter-engine-5.9.2.jar:/home/codespace/.m2/repository/org/junit/platform/junit-platform-engine/1.9.2/junit-platform-engine-1.9.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/codespace"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/usr/local/sdkman/candidates/java/21.0.9-ms"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/workspaces/intuit_assessment/Build-Challenge"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/workspaces/intuit_assessment/Build-Challenge/target/surefire/surefirebooter-20251124210329456_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.9+10-LTS"/>
+    <property name="user.name" value="codespace"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.8.0-1030-azure"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-12574458"/>
+    <property name="localRepository" value="/home/codespace/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="21.0.9"/>
+    <property name="user.dir" value="/workspaces/intuit_assessment/Build-Challenge"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="21.0.9+10-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testSleepInForLoop" classname="com.example.buildchallenge.producerconsumer.ProducerTest" time="0.306">
+    <system-out><![CDATA[Produced: Slow1
+Produced: Slow2
+Produced: Slow3
+]]></system-out>
+  </testcase>
+  <testcase name="testRunWithMultipleItems" classname="com.example.buildchallenge.producerconsumer.ProducerTest" time="0.207">
+    <system-out><![CDATA[Produced: Apple
+Produced: Banana
+Produced: Cherry
+Produced: Date
+]]></system-out>
+  </testcase>
+  <testcase name="testLargeSourceList" classname="com.example.buildchallenge.producerconsumer.ProducerTest" time="0.114">
+    <system-out><![CDATA[Produced: Item0
+Produced: Item1
+Produced: Item2
+Produced: Item3
+Produced: Item4
+Produced: Item5
+Produced: Item6
+Produced: Item7
+Produced: Item8
+Produced: Item9
+Produced: Item10
+Produced: Item11
+Produced: Item12
+Produced: Item13
+Produced: Item14
+Produced: Item15
+Produced: Item16
+Produced: Item17
+Produced: Item18
+Produced: Item19
+Produced: Item20
+Produced: Item21
+Produced: Item22
+Produced: Item23
+Produced: Item24
+Produced: Item25
+Produced: Item26
+Produced: Item27
+Produced: Item28
+Produced: Item29
+Produced: Item30
+Produced: Item31
+Produced: Item32
+Produced: Item33
+Produced: Item34
+Produced: Item35
+Produced: Item36
+Produced: Item37
+Produced: Item38
+Produced: Item39
+Produced: Item40
+Produced: Item41
+Produced: Item42
+Produced: Item43
+Produced: Item44
+Produced: Item45
+Produced: Item46
+Produced: Item47
+Produced: Item48
+Produced: Item49
+Produced: Item50
+Produced: Item51
+Produced: Item52
+Produced: Item53
+Produced: Item54
+Produced: Item55
+Produced: Item56
+Produced: Item57
+Produced: Item58
+Produced: Item59
+Produced: Item60
+Produced: Item61
+Produced: Item62
+Produced: Item63
+Produced: Item64
+Produced: Item65
+Produced: Item66
+Produced: Item67
+Produced: Item68
+Produced: Item69
+Produced: Item70
+Produced: Item71
+Produced: Item72
+Produced: Item73
+Produced: Item74
+Produced: Item75
+Produced: Item76
+Produced: Item77
+Produced: Item78
+Produced: Item79
+Produced: Item80
+Produced: Item81
+Produced: Item82
+Produced: Item83
+Produced: Item84
+Produced: Item85
+Produced: Item86
+Produced: Item87
+Produced: Item88
+Produced: Item89
+Produced: Item90
+Produced: Item91
+Produced: Item92
+Produced: Item93
+Produced: Item94
+Produced: Item95
+Produced: Item96
+Produced: Item97
+Produced: Item98
+Produced: Item99
+]]></system-out>
+  </testcase>
+  <testcase name="testInterruptDuringSleep" classname="com.example.buildchallenge.producerconsumer.ProducerTest" time="0.153">
+    <system-out><![CDATA[Produced: Sleep1
+]]></system-out>
+  </testcase>
+  <testcase name="testSubstringCapitalization" classname="com.example.buildchallenge.producerconsumer.ProducerTest" time="0.051">
+    <system-out><![CDATA[Produced: Apple
+]]></system-out>
+  </testcase>
+  <testcase name="testForLoopIteration" classname="com.example.buildchallenge.producerconsumer.ProducerTest" time="0.051">
+    <system-out><![CDATA[Produced: Item1
+Produced: Item2
+Produced: Item3
+Produced: Item4
+Produced: Item5
+]]></system-out>
+  </testcase>
+  <testcase name="testInterruptedExceptionInTryCatch" classname="com.example.buildchallenge.producerconsumer.ProducerTest" time="0.101">
+    <system-out><![CDATA[Produced: Item1
+]]></system-out>
+  </testcase>
+  <testcase name="testRunWithEmptySource" classname="com.example.buildchallenge.producerconsumer.ProducerTest" time="0.001"/>
+  <testcase name="testTryCatchHandlesInterruptedException" classname="com.example.buildchallenge.producerconsumer.ProducerTest" time="0.052">
+    <system-out><![CDATA[Produced: Test
+]]></system-out>
+  </testcase>
+  <testcase name="testConcurrentProducers" classname="com.example.buildchallenge.producerconsumer.ProducerTest" time="0.031">
+    <system-out><![CDATA[Produced: P1-a
+Produced: P2-a
+Produced: P1-b
+Produced: P2-b
+Produced: P1-c
+Produced: P2-c
+]]></system-out>
+  </testcase>
+  <testcase name="testSetDoneAfterForLoop" classname="com.example.buildchallenge.producerconsumer.ProducerTest" time="0.152">
+    <system-out><![CDATA[Produced: A
+Produced: B
+Produced: C
+]]></system-out>
+  </testcase>
+  <testcase name="testZeroDelay" classname="com.example.buildchallenge.producerconsumer.ProducerTest" time="0.001">
+    <system-out><![CDATA[Produced: Fast1
+Produced: Fast2
+Produced: Fast3
+]]></system-out>
+  </testcase>
+  <testcase name="testThreadInterruptFlagSet" classname="com.example.buildchallenge.producerconsumer.ProducerTest" time="0.051">
+    <system-out><![CDATA[Produced: Item1
+]]></system-out>
+  </testcase>
+  <testcase name="testRunWithSingleItem" classname="com.example.buildchallenge.producerconsumer.ProducerTest" time="0.052">
+    <system-out><![CDATA[Produced: Apple
+]]></system-out>
+  </testcase>
+  <testcase name="testPutInForLoop" classname="com.example.buildchallenge.producerconsumer.ProducerTest" time="0.032">
+    <system-out><![CDATA[Produced: Put1
+Produced: Put2
+Produced: Put3
+]]></system-out>
+  </testcase>
+</testsuite>
