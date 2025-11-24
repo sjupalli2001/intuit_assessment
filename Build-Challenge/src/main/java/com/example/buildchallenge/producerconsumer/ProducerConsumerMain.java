@@ -1,6 +1,7 @@
 package com.example.buildchallenge.producerconsumer;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class ProducerConsumerMain {
     public static void main(String[] args) throws Exception {

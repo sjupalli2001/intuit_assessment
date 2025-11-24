@@ -1,6 +1,8 @@
 package com.example.buildchallenge.producerconsumer;
 
-import java.util.*;
+import java.util.LinkedList;
+import java.util.Queue;
+
 
 public class SharedBuffer<T> {
     private final Queue<T> buffer;
@@ -49,4 +51,3 @@ public class SharedBuffer<T> {
         return buffer.size();
     }
 }
-
