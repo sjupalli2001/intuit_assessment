@@ -1,7 +1,9 @@
 package com.example.buildchallenge.producerconsumer;
 
 import java.util.List;
-
+/**
+ * Consumer thread that retrieves items from shared buffer.
+ */
 public class Consumer implements Runnable {
     private final SharedBuffer<String> buffer;
     private final List<String> destination;

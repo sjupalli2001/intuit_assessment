@@ -5,12 +5,22 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.time.YearMonth;
-import java.util.*;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 import java.util.stream.Collectors;
+
+/**
+ * Utility class for sales data analysis.
+ */
 
 public class SalesAnalyzer {
 
-    // Load CSV from InputStream
+        
+    /**
+     * Loads sales records from CSV, skipping header and blank lines.
+     */
+
     public static List<SalesRecord> load(InputStream is) throws IOException {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(is))) {
             return br.lines()
@@ -21,14 +31,18 @@ public class SalesAnalyzer {
         }
     }
 
-    // 1. Total sales
+    
     public static double total(List<SalesRecord> records) {
         return records.stream()
                 .mapToDouble(SalesRecord::total)
                 .sum();
     }
 
-    // 2. Sales by region
+
+   /**
+     * Groups sales by region and sums revenue per region.
+     */
+
     public static Map<String, Double> byRegion(List<SalesRecord> records) {
         return records.stream()
                 .collect(Collectors.groupingBy(
@@ -37,7 +51,10 @@ public class SalesAnalyzer {
                 ));
     }
 
-    // 3. Top N products by revenue
+    /**
+     * Returns top N products sorted by revenue (descending).
+     */
+
     public static List<Map.Entry<String, Double>> topNProductsByRevenue(List<SalesRecord> records, int n) {
         Map<String, Double> revenueByProduct =
                 records.stream()
@@ -52,7 +69,9 @@ public class SalesAnalyzer {
                 .collect(Collectors.toList());
     }
 
-    // 4. Monthly totals (YearMonth -> total revenue)
+    /**
+     * Aggregates sales by month using TreeMap for chronological order.
+     */
     public static Map<YearMonth, Double> monthlyTotals(List<SalesRecord> records) {
         return records.stream()
                 .collect(Collectors.groupingBy(

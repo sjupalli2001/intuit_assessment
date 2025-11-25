@@ -1,10 +1,13 @@
 package com.example.buildchallenge.csvanalysis;
 
 import java.io.InputStream;
+import java.time.YearMonth;
 import java.util.List;
 import java.util.Map;
-import java.time.YearMonth;
 
+/**
+ * Main class for CSV sales analysis.
+ */
 public class CsvAnalysisMain {
 
     public static void main(String[] args) throws Exception {

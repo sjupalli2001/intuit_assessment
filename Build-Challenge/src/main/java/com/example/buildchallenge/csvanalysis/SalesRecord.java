@@ -2,6 +2,9 @@ package com.example.buildchallenge.csvanalysis;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+/**
+ * Represents a single sales record.
+ */
 
 public class SalesRecord {
     private final LocalDate date;
@@ -13,6 +16,9 @@ public class SalesRecord {
     public SalesRecord(LocalDate d, String r, String s, String p, int q, double pr) {
         date=d; region=r; salesperson=s; product=p; quantity=q; price=pr;
     }
+    /**
+     * Parses CSV line: date,region,salesperson,product,quantity,unitPrice
+     */
     public static SalesRecord fromCsv(String line) {
         String[] a=line.split(",");
         return new SalesRecord(LocalDate.parse(a[0].trim(),F),a[1].trim(),a[2].trim(),

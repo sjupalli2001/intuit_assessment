@@ -2,7 +2,9 @@ package com.example.buildchallenge.producerconsumer;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * Main class for Producer-Consumer pattern demonstration.
+ */
 public class ProducerConsumerMain {
     public static void main(String[] args) throws Exception {
         SharedBuffer<String> buffer = new SharedBuffer<>(5);
